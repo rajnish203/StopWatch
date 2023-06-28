@@ -23,9 +23,10 @@
   }
 
 body{
-    background: var(--outgoing-chat-bg);
+    background: skyblue;
 }
 #i1{
+  background: var(--outgoing-chat-bg);
   margin-top: 15%;
   margin-left: 35%;
   width: 500px;
