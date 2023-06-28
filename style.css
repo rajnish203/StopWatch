@@ -8,9 +8,10 @@
     --incoming-chat-bg:#444654;
     --outgoing-chat-border:#343541;
     --incoming-chat-border:#444654;
+    --display-color:white;
 }
 .light-mode{
-    --text-color:#343541;
+    --text-color:white;
     --icon-color:#a9a9bc;
     --icon-hover-bg:#f1f1f3;
     --placeholder-color:#9f9f9f;
@@ -18,9 +19,32 @@
     --incoming-chat-bg:#F7F7F8;
     --outgoing-chat-border:#FFFFFF;
     --incoming-chat-border:#D9D9E3;
-}
+    --display-color:white;
+  }
+
 body{
     background: var(--outgoing-chat-bg);
+}
+#i1{
+  margin: auto;
+  width: 500px;
+  height: 300px;
+  padding: 10px;
+  border: 5px solid crimson;
+}
+.typing-controls{
+  margin-top: 7%;
+  width: inherit;
+  height: 50px;
+
+  padding-top: 20px;
+  border: 2px solid skyblue;
+}
+#theme-btn{
+  margin: 0;
+  position: absolute;
+ 
+  margin-left: 10%;
 }
 .container {
     max-width: 500px;
